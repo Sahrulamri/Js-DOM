@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bermain Dengan Warna</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            /* display: flex; */
+            margin: 50px auto;
+            /* justify-content: center; */
+            text-align: center;
+            /* flex-direction: column; */
+            width: 100%;
+        }
+        h1 {
+            margin-bottom: 50px;
+        }
+        .konten {
+            background-color: black;
+            color: white;
+        }
+        .merah {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            margin: 50px auto;
+        }
+        .blue {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            margin: 50px auto;
+        }
+        .green {
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bermain Dengan Warna</h1>
+    <button type="button" class="tombol">Ganti Warna</button>
+    <br><br>
+    <div class="merah">
+    </div>
+    <input type="range" name="sMerah" min="0" max="255">
+    <div class="green">
+    </div>
+    <input type="range" name="sGreen" min="0" max="255">
+    <div class="blue">
+    </div>
+    <input type="range" name="sBlue" min="0" max="255">
+    <script src="script.js"></script>
+</body>
+</html>
